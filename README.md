@@ -6,7 +6,7 @@ Use two 4n35 ICs with resistors of 10K each.
 
 Note:  at the RPI conector, be careful with jumping ground. Cause could be a drain and the camera wont work.
 
-![schematic](hardware/interfaz.png)
+![schematic](hardware/Iterfaz.png)
 
 ## Software
 
@@ -42,3 +42,16 @@ https://www.pyimagesearch.com/2017/09/04/raspbian-stretch-install-opencv-3-pytho
     ExecStart=/usr/lib/bluetooth/bluetoothd -E
     sudo reboot now
 ```
+
+## Wiring of robot (General)
+
+![schematic](hardware/Bot_wiring.png)
+
+    Notes: 
+        -RPI is Isolated from others boards and drivers
+        -RPI has a independent batery
+        -RPI just connect to interfaz and Picamera
+        -Arduino/drivers/HC-06 share ground
+        -Arduino/HC-06 share batery
+        -Drivers and motors share batery
+        -Careful batery levels are diferent between them
