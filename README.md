@@ -33,11 +33,12 @@ On behave of rpi code was integraded the part whom manage BLE server with tracki
 
 ### Config of RPI
 
-    - Install opencv3
-        - https://www.pyimagesearch.com/2017/09/04/raspbian-stretch-install-opencv-3-python-on-your-raspberry-pi/ 
-    - Enable BLE
-        - 
-```sudo nano /etc/systemd/system/dbus-org.bluez.service
+- Install opencv3
+https://www.pyimagesearch.com/2017/09/04/raspbian-stretch-install-opencv-3-python-on-your-raspberry-pi/ 
+- Enable BLE
+
+```
+    sudo nano /etc/systemd/system/dbus-org.bluez.service
     ExecStart=/usr/lib/bluetooth/bluetoothd -E
     sudo reboot now
-    ```
+```
