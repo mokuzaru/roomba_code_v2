@@ -55,3 +55,19 @@ https://www.pyimagesearch.com/2017/09/04/raspbian-stretch-install-opencv-3-pytho
         -Arduino/HC-06 share batery
         -Drivers and motors share batery
         -Careful batery levels are diferent between them
+
+    RPI(BDM)
+    Pin 14 Left
+    Pin 15 Right
+
+    Arduino
+    Int (2"left",3"right")
+
+    Drivers
+    dirI 9
+    dirD 6
+    MotI 10
+    MotD 5
+
+    trig 7
+    echo 8
