@@ -20,7 +20,7 @@ Adding three functions
     Interrupts pin 2 and pin 3
     Emergency stop
 
-Note: if you decided to change the controller, could be a problem with frecuency rate with the drivers and logoc level.
+Note: if you decided to change the controller, could be a problem with frecuency rate with the drivers and logic level.
 
 On behave of rpi code was integraded the part whom manage BLE server with tracking code.
 
