@@ -59,9 +59,18 @@ https://www.pyimagesearch.com/2017/09/04/raspbian-stretch-install-opencv-3-pytho
     RPI(BDM)
     Pin 14 Left
     Pin 15 Right
+    pin 18 (Enable Video Call)
+        - "on" start tracking mov
+        - "off" End tracking mov
+    pin 17 (Enable 3d model)
+        - "on" start mov for 3d model
+        - "off" End mov for 3d model
 
     Arduino
     Int (2"left",3"right")
+
+    pin 4   => (Enable follow tracking)
+    pin 13  => (Enable 3d model)
 
     Drivers
     dirI 9
@@ -71,3 +80,11 @@ https://www.pyimagesearch.com/2017/09/04/raspbian-stretch-install-opencv-3-pytho
 
     trig 7
     echo 8
+
+
+    RPI => Interface => Ard
+
+    2 ------ 14 (left)
+    3 ------ 15 (right)
+    4 ------ 18 (Follow)
+    13------ 17 (3d)

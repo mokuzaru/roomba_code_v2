@@ -1,7 +1,7 @@
 try:
     import cv2
 except Exception as e:
-    print("Warning: not cv2")
+    print("Warning: bitch")
 from time import sleep
 import thread
 import threading
@@ -127,10 +127,10 @@ if __name__ == "__main__":
         else:
             t.motion_detection()
     else:
-        print ("presion 1 ")
+        print ("presion 1 ptm")
 print ("success")
 sleep(0.5)
 GPIO.output(14,True)
 sleep(0.5)
 GPIO.output(14,False)
-print ("finish")
+print ("shit")
